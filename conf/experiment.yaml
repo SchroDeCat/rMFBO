@@ -1,0 +1,4 @@
+defaults:
+  - problem: iaml_xgboost
+  # - algorithm: rmfbo_random # default
+  - algorithm: rmfbo_pseudo # default

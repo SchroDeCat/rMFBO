@@ -1,0 +1,14 @@
+name: 'RMFBO-RANDOM'
+max_opt_iter: 50
+sample_train_num: 2
+sample_num: 2048
+space_sample_num: 40000
+model_sample_num: 100
+batch_limit: 20
+
+bo_beta: 5
+rate_beta: 1
+rbf_beta: 10
+filter_beta: .05
+roi_factor: .5
+distance_quantile: 0.05

@@ -1,0 +1,18 @@
+name: 'XGBoost'
+num_restarts: 5
+raw_samples: 128
+batch_size: 1
+n_iter: 60
+n_init: 2
+fid_idx: 12
+scale: 1
+min_value: 0
+negate: False
+low_cost: 0
+fidelities: [0.1, 0.5, 1.0]
+target_fidelity: 1.0
+budget: 50
+stopping_criteria: 'budget' # budget or max_iter
+max_n_iter: 100
+n_repeat: 10
+plot_results: True  

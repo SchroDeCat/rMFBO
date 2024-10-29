@@ -1,0 +1,18 @@
+name: 'ProteinFixed'
+num_restarts: 5
+raw_samples: 128
+batch_size: 1
+n_iter: 60
+n_init: 2
+fid_idx: 86
+scale: 1
+min_value: -50
+negate: True
+low_cost: .2
+fidelities: [0, 1, 2.0]
+target_fidelity: 2.0
+budget: 60
+stopping_criteria: 'budget' # budget or max_iter
+max_n_iter: 300
+n_repeat: 10
+plot_results: True  

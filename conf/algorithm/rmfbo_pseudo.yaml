@@ -1,0 +1,8 @@
+name: 'RMFBO-PSEUDO'
+max_opt_iter: 50
+sample_train_num: 2
+sample_num: 2048
+space_sample_num: 10000
+model_sample_num: 100
+batch_limit: 20
+acq_name: 'MES' # MES, KG, RANDOM
