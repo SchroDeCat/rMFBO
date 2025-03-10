@@ -50,3 +50,16 @@ The `main.py` script serves as the entry point for benchmarking. For example, to
 ```shell
 python main.py -m problem=rastrigin algorithm=rmfbo,rmfbo_pseudo,mes,kg
 ```
+
+
+## Citation
+
+If you wish to cite the project, please consider the following
+
+```bash
+@inproceedings{zhang2024robust,
+  title={Robust Multi-fidelity Bayesian Optimization with Deep Kernel and Partition},
+  author={Zhang, Fengxue and Desautels, Thomas and Chen, Yuxin},
+  booktitle={28th International Conference on Artificial Intelligence and Statistics}
+}
+```
